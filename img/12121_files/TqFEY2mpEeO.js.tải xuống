@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["R9sxW33"]); }
+
+__d("AccountStatusRootV2Query$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"4399518816800379",metadata:{},name:"AccountStatusRootV2Query",operationKind:"query",text:null}};e.exports=a}),null);
+__d("AccountStatusRootV2.entrypoint",["AccountStatusRootV2Query$Parameters","JSResourceForInteraction","WebPixelRatio"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){return{queries:{accountStatusRootV2QueryReference:{options:{},parameters:c("AccountStatusRootV2Query$Parameters"),variables:{location:a.routeProps.location,scale:d("WebPixelRatio").get()}}}}},root:c("JSResourceForInteraction")("AccountStatusRootV2.react").__setRef("AccountStatusRootV2.entrypoint")};g["default"]=a}),98);
